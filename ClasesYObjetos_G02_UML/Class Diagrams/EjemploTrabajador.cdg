@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="EjemploTrabajador">
+  <ClassDiagramComponents>
+    <Class name="Trabajador" package="" visibility="public" xPosition="333.0" yPosition="69.0">
+      <Fields>
+        <Field name="horasT" type="double" visibility="private"/>
+        <Field name="valorH" type="double" visibility="public" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getHorasT" returnType="double" visibility="public"/>
+        <Method name="setHorasT" returnType="void" visibility="public">
+          <Argument type="double" name="n"/>
+        </Method>
+        <Method name="calcularPago" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
